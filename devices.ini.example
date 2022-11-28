@@ -1,0 +1,12 @@
+; Dies ist ein Beispiel für eine Konfigurationsdatei
+; Kommentare beginnen wie in der php.ini mit ';'
+
+; [device1]
+; host = 192.168.1.100
+; name = "TP LINK Waschmaschine"
+; type = "tp_link"
+
+; [device2]
+; host = 192.168.1.77
+; name = "TP LINK Trockner"
+; type = "tp_link"

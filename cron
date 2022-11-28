@@ -1,0 +1,11 @@
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/binexit
+
+#     ,------ MINUTE
+#    / ,----- HOUR
+#   / / ,---- DAY OF MONTH
+#  / / / ,--- MONTH
+# / / / / ,-- DAY OF WEEK
+#/ / / / /
+* * * * *  root php /var/www/html/cron.php >> /var/log/cron/cron.log 2>&1
+#
